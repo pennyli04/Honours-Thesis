@@ -1,0 +1,94 @@
+{
+  "model": "claude-sonnet-5",
+  "conditions": {
+    "search_blocked": {
+      "n_total": 20,
+      "n_scored": 20,
+      "n_errors": 0,
+      "accuracy": 0.7,
+      "accuracy_ci95": [
+        0.5,
+        0.9
+      ],
+      "macro_f1": 0.494949494949495,
+      "macro_f1_ci95": [
+        0.34615384615384615,
+        0.7442455242966752
+      ],
+      "per_class": {
+        "likely_true": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 5
+        },
+        "likely_false": {
+          "precision": 0.9,
+          "recall": 0.75,
+          "f1": 0.8181818181818182,
+          "support": 12
+        },
+        "unverifiable": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      },
+      "confusion": {
+        "Supported": {
+          "likely_true": 5,
+          "likely_false": 0,
+          "unverifiable": 0
+        },
+        "Refuted": {
+          "likely_true": 3,
+          "likely_false": 9,
+          "unverifiable": 0
+        },
+        "Not Enough Evidence": {
+          "likely_true": 0,
+          "likely_false": 1,
+          "unverifiable": 0
+        },
+        "Conflicting Evidence/Cherrypicking": {
+          "likely_true": 2,
+          "likely_false": 0,
+          "unverifiable": 0
+        }
+      },
+      "coverage": 1.0,
+      "selective_accuracy": 0.7,
+      "by_confidence": {
+        "high": {
+          "n": 16,
+          "accuracy": 0.6875
+        },
+        "medium": {
+          "n": 4,
+          "accuracy": 0.75
+        },
+        "low": {
+          "n": 0,
+          "accuracy": null
+        }
+      },
+      "leak_exact_rate": 0.0,
+      "leak_factcheck_site_rate": 0.0,
+      "factcheck_page_rate": 0.55,
+      "accuracy_with_factcheck_page": 0.6363636363636364,
+      "accuracy_without_factcheck_page": 0.7777777777777778,
+      "n_without_factcheck_page": 9,
+      "cites_factchecker_rate": 0.25,
+      "n_without_exact_leak": 20,
+      "accuracy_without_exact_leak": 0.7,
+      "macro_f1_without_exact_leak": 0.494949494949495,
+      "followup_rate": 0.0,
+      "mean_input_tokens": 31485.45,
+      "mean_output_tokens": 1416.3,
+      "mean_web_searches": 2.25,
+      "mean_seconds": 16.3765
+    }
+  },
+  "paired": []
+}

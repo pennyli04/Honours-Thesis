@@ -1,0 +1,231 @@
+{
+  "model": "claude-sonnet-5",
+  "conditions": {
+    "search_blocked_recent": {
+      "prompt_versions": [
+        "v3-central-assertion"
+      ],
+      "n_total": 150,
+      "n_scored": 150,
+      "n_errors": 0,
+      "accuracy": 0.6,
+      "accuracy_ci95": [
+        0.52,
+        0.6733333333333333
+      ],
+      "macro_f1": 0.4810817918821776,
+      "macro_f1_ci95": [
+        0.40336270410195146,
+        0.5592241379310345
+      ],
+      "per_class": {
+        "likely_true": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8648648648648649,
+          "f1": 0.7529411764705882,
+          "support": 37
+        },
+        "likely_false": {
+          "precision": 0.5925925925925926,
+          "recall": 0.9411764705882353,
+          "f1": 0.7272727272727272,
+          "support": 51
+        },
+        "misleading": {
+          "precision": 0.5,
+          "recall": 0.17777777777777778,
+          "f1": 0.26229508196721313,
+          "support": 45
+        },
+        "unverifiable": {
+          "precision": 0.4,
+          "recall": 0.11764705882352941,
+          "f1": 0.1818181818181818,
+          "support": 17
+        }
+      },
+      "confusion": {
+        "Supported": {
+          "likely_true": 32,
+          "likely_false": 1,
+          "misleading": 4,
+          "unverifiable": 0
+        },
+        "Refuted": {
+          "likely_true": 0,
+          "likely_false": 48,
+          "misleading": 3,
+          "unverifiable": 0
+        },
+        "Not Enough Evidence": {
+          "likely_true": 0,
+          "likely_false": 14,
+          "misleading": 1,
+          "unverifiable": 2
+        },
+        "Conflicting Evidence/Cherrypicking": {
+          "likely_true": 16,
+          "likely_false": 18,
+          "misleading": 8,
+          "unverifiable": 3
+        }
+      },
+      "coverage": 0.9666666666666667,
+      "selective_accuracy": 0.6068965517241379,
+      "by_confidence": {
+        "high": {
+          "n": 126,
+          "accuracy": 0.6666666666666666
+        },
+        "medium": {
+          "n": 22,
+          "accuracy": 0.2727272727272727
+        },
+        "low": {
+          "n": 2,
+          "accuracy": 0.0
+        }
+      },
+      "leak_exact_rate": 0.0,
+      "leak_factcheck_site_rate": 0.0,
+      "factcheck_page_rate": 0.48,
+      "accuracy_with_factcheck_page": 0.6666666666666666,
+      "accuracy_without_factcheck_page": 0.5384615384615384,
+      "n_without_factcheck_page": 78,
+      "cites_factchecker_rate": 0.24666666666666667,
+      "n_without_exact_leak": 150,
+      "accuracy_without_exact_leak": 0.6,
+      "macro_f1_without_exact_leak": 0.4810817918821776,
+      "followup_rate": 0.0,
+      "mean_input_tokens": 34480.666666666664,
+      "mean_output_tokens": 1480.2,
+      "mean_web_searches": 2.2266666666666666,
+      "mean_seconds": 0.0034000000000000002,
+      "mean_cost_usd": 0.06414813333333336,
+      "total_cost_usd": 9.622220000000004,
+      "batch_share": 1.0,
+      "max_searches": [
+        3
+      ]
+    },
+    "no_search_recent": {
+      "prompt_versions": [
+        "v3-central-assertion"
+      ],
+      "n_total": 150,
+      "n_scored": 150,
+      "n_errors": 0,
+      "accuracy": 0.2866666666666667,
+      "accuracy_ci95": [
+        0.22,
+        0.36
+      ],
+      "macro_f1": 0.2535075908169241,
+      "macro_f1_ci95": [
+        0.1918908206221639,
+        0.3149766899766899
+      ],
+      "per_class": {
+        "likely_true": {
+          "precision": 0.7,
+          "recall": 0.1891891891891892,
+          "f1": 0.2978723404255319,
+          "support": 37
+        },
+        "likely_false": {
+          "precision": 0.574468085106383,
+          "recall": 0.5294117647058824,
+          "f1": 0.5510204081632654,
+          "support": 51
+        },
+        "misleading": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 45
+        },
+        "unverifiable": {
+          "precision": 0.09782608695652174,
+          "recall": 0.5294117647058824,
+          "f1": 0.1651376146788991,
+          "support": 17
+        }
+      },
+      "confusion": {
+        "Supported": {
+          "likely_true": 7,
+          "likely_false": 3,
+          "misleading": 1,
+          "unverifiable": 26
+        },
+        "Refuted": {
+          "likely_true": 2,
+          "likely_false": 27,
+          "misleading": 0,
+          "unverifiable": 22
+        },
+        "Not Enough Evidence": {
+          "likely_true": 0,
+          "likely_false": 8,
+          "misleading": 0,
+          "unverifiable": 9
+        },
+        "Conflicting Evidence/Cherrypicking": {
+          "likely_true": 1,
+          "likely_false": 9,
+          "misleading": 0,
+          "unverifiable": 35
+        }
+      },
+      "coverage": 0.38666666666666666,
+      "selective_accuracy": 0.5862068965517241,
+      "by_confidence": {
+        "high": {
+          "n": 29,
+          "accuracy": 0.3448275862068966
+        },
+        "medium": {
+          "n": 39,
+          "accuracy": 0.5641025641025641
+        },
+        "low": {
+          "n": 82,
+          "accuracy": 0.13414634146341464
+        }
+      },
+      "leak_exact_rate": 0.0,
+      "leak_factcheck_site_rate": 0.0,
+      "factcheck_page_rate": 0.0,
+      "accuracy_with_factcheck_page": NaN,
+      "accuracy_without_factcheck_page": 0.2866666666666667,
+      "n_without_factcheck_page": 150,
+      "cites_factchecker_rate": 0.006666666666666667,
+      "n_without_exact_leak": 150,
+      "accuracy_without_exact_leak": 0.2866666666666667,
+      "macro_f1_without_exact_leak": 0.2535075908169241,
+      "followup_rate": 0.0,
+      "mean_input_tokens": 1058.6733333333334,
+      "mean_output_tokens": 670.0266666666666,
+      "mean_web_searches": 0.0,
+      "mean_seconds": 0.0,
+      "mean_cost_usd": 0.004408866666666668,
+      "total_cost_usd": 0.6613300000000002,
+      "batch_share": 1.0,
+      "max_searches": [
+        0
+      ]
+    }
+  },
+  "paired": [
+    {
+      "a": "search_blocked_recent",
+      "b": "no_search_recent",
+      "n_common": 150,
+      "acc_a": 0.6,
+      "acc_b": 0.2866666666666667,
+      "only_a_correct": 55,
+      "only_b_correct": 8,
+      "mcnemar_p": 9.761673086614714e-10
+    }
+  ]
+}

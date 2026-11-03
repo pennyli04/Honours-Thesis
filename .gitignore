@@ -1,0 +1,27 @@
+# secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large or third-party data, rebuilt by the scripts
+archive/
+data/images/
+data/images_small/
+data/c2pa_set/
+data/averitec_dev.json
+test images/
+
+# documents and Office temp files
+*.docx
+*.xlsx
+~$*
+
+# batch state saved while a run is waiting
+results/*.batch.json
+
+# OS files
+.DS_Store
+Thumbs.db

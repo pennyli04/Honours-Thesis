@@ -1,0 +1,231 @@
+{
+  "model": "claude-sonnet-5",
+  "conditions": {
+    "no_search_heldout": {
+      "prompt_versions": [
+        "v3-central-assertion"
+      ],
+      "n_total": 150,
+      "n_scored": 150,
+      "n_errors": 0,
+      "accuracy": 0.7266666666666667,
+      "accuracy_ci95": [
+        0.6533333333333333,
+        0.7933333333333333
+      ],
+      "macro_f1": 0.5506958257757435,
+      "macro_f1_ci95": [
+        0.44997894446170306,
+        0.6409035872413481
+      ],
+      "per_class": {
+        "likely_true": {
+          "precision": 0.7428571428571429,
+          "recall": 0.7222222222222222,
+          "f1": 0.732394366197183,
+          "support": 36
+        },
+        "likely_false": {
+          "precision": 0.872093023255814,
+          "recall": 0.8152173913043478,
+          "f1": 0.8426966292134831,
+          "support": 92
+        },
+        "misleading": {
+          "precision": 0.2857142857142857,
+          "recall": 0.36363636363636365,
+          "f1": 0.32,
+          "support": 11
+        },
+        "unverifiable": {
+          "precision": 0.26666666666666666,
+          "recall": 0.36363636363636365,
+          "f1": 0.30769230769230765,
+          "support": 11
+        }
+      },
+      "confusion": {
+        "Supported": {
+          "likely_true": 26,
+          "likely_false": 5,
+          "misleading": 3,
+          "unverifiable": 2
+        },
+        "Refuted": {
+          "likely_true": 2,
+          "likely_false": 75,
+          "misleading": 6,
+          "unverifiable": 9
+        },
+        "Not Enough Evidence": {
+          "likely_true": 3,
+          "likely_false": 3,
+          "misleading": 1,
+          "unverifiable": 4
+        },
+        "Conflicting Evidence/Cherrypicking": {
+          "likely_true": 4,
+          "likely_false": 3,
+          "misleading": 4,
+          "unverifiable": 0
+        }
+      },
+      "coverage": 0.9,
+      "selective_accuracy": 0.7777777777777778,
+      "by_confidence": {
+        "high": {
+          "n": 58,
+          "accuracy": 0.896551724137931
+        },
+        "medium": {
+          "n": 66,
+          "accuracy": 0.7272727272727273
+        },
+        "low": {
+          "n": 26,
+          "accuracy": 0.34615384615384615
+        }
+      },
+      "leak_exact_rate": 0.0,
+      "leak_factcheck_site_rate": 0.0,
+      "factcheck_page_rate": 0.0,
+      "accuracy_with_factcheck_page": NaN,
+      "accuracy_without_factcheck_page": 0.7266666666666667,
+      "n_without_factcheck_page": 150,
+      "cites_factchecker_rate": 0.12666666666666668,
+      "n_without_exact_leak": 150,
+      "accuracy_without_exact_leak": 0.7266666666666667,
+      "macro_f1_without_exact_leak": 0.5506958257757435,
+      "followup_rate": 0.006666666666666667,
+      "mean_input_tokens": 1088.6666666666667,
+      "mean_output_tokens": 720.7666666666667,
+      "mean_web_searches": 0.0,
+      "mean_seconds": 0.014866666666666667,
+      "mean_cost_usd": 0.0047086666666666666,
+      "total_cost_usd": 0.7062999999999999,
+      "batch_share": 1.0,
+      "max_searches": [
+        0
+      ]
+    },
+    "search_blocked_heldout": {
+      "prompt_versions": [
+        "v3-central-assertion"
+      ],
+      "n_total": 150,
+      "n_scored": 150,
+      "n_errors": 0,
+      "accuracy": 0.74,
+      "accuracy_ci95": [
+        0.6666666666666666,
+        0.8066666666666666
+      ],
+      "macro_f1": 0.5037349837392979,
+      "macro_f1_ci95": [
+        0.41306863527533916,
+        0.5950246195344234
+      ],
+      "per_class": {
+        "likely_true": {
+          "precision": 0.675,
+          "recall": 0.75,
+          "f1": 0.7105263157894738,
+          "support": 36
+        },
+        "likely_false": {
+          "precision": 0.8681318681318682,
+          "recall": 0.8586956521739131,
+          "f1": 0.8633879781420766,
+          "support": 92
+        },
+        "misleading": {
+          "precision": 0.26666666666666666,
+          "recall": 0.36363636363636365,
+          "f1": 0.30769230769230765,
+          "support": 11
+        },
+        "unverifiable": {
+          "precision": 0.25,
+          "recall": 0.09090909090909091,
+          "f1": 0.13333333333333333,
+          "support": 11
+        }
+      },
+      "confusion": {
+        "Supported": {
+          "likely_true": 27,
+          "likely_false": 5,
+          "misleading": 4,
+          "unverifiable": 0
+        },
+        "Refuted": {
+          "likely_true": 6,
+          "likely_false": 79,
+          "misleading": 4,
+          "unverifiable": 3
+        },
+        "Not Enough Evidence": {
+          "likely_true": 4,
+          "likely_false": 3,
+          "misleading": 3,
+          "unverifiable": 1
+        },
+        "Conflicting Evidence/Cherrypicking": {
+          "likely_true": 3,
+          "likely_false": 4,
+          "misleading": 4,
+          "unverifiable": 0
+        }
+      },
+      "coverage": 0.9733333333333334,
+      "selective_accuracy": 0.7534246575342466,
+      "by_confidence": {
+        "high": {
+          "n": 113,
+          "accuracy": 0.7876106194690266
+        },
+        "medium": {
+          "n": 37,
+          "accuracy": 0.5945945945945946
+        },
+        "low": {
+          "n": 0,
+          "accuracy": null
+        }
+      },
+      "leak_exact_rate": 0.02666666666666667,
+      "leak_factcheck_site_rate": 0.02666666666666667,
+      "factcheck_page_rate": 0.5133333333333333,
+      "accuracy_with_factcheck_page": 0.7792207792207793,
+      "accuracy_without_factcheck_page": 0.6986301369863014,
+      "n_without_factcheck_page": 73,
+      "cites_factchecker_rate": 0.22666666666666666,
+      "n_without_exact_leak": 146,
+      "accuracy_without_exact_leak": 0.7534246575342466,
+      "macro_f1_without_exact_leak": 0.5157677902621723,
+      "followup_rate": 0.0,
+      "mean_input_tokens": 31329.013333333332,
+      "mean_output_tokens": 1562.8133333333333,
+      "mean_web_searches": 2.2066666666666666,
+      "mean_seconds": 0.003933333333333335,
+      "mean_cost_usd": 0.0612095333333333,
+      "total_cost_usd": 9.181429999999995,
+      "batch_share": 1.0,
+      "max_searches": [
+        3
+      ]
+    }
+  },
+  "paired": [
+    {
+      "a": "no_search_heldout",
+      "b": "search_blocked_heldout",
+      "n_common": 150,
+      "acc_a": 0.7266666666666667,
+      "acc_b": 0.74,
+      "only_a_correct": 11,
+      "only_b_correct": 13,
+      "mcnemar_p": 0.8388197422027588
+    }
+  ]
+}

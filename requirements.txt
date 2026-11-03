@@ -1,0 +1,13 @@
+anthropic>=0.40
+python-dotenv
+requests
+c2pa-python>=0.37
+cryptography
+pillow
+matplotlib
+pandas
+# classifier for the image check (large download on first run)
+transformers
+torch
+# tests
+pytest

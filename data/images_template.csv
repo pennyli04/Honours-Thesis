@@ -1,0 +1,4 @@
+﻿id,label,caption,image_url,image_path,source,fact_check_url,notes
+ammeba_0001,content_manipulation,Caption or claim shared with the image,https://example.com/image1.jpg,,AMMeBa,https://www.snopes.com/fact-check/example/,"example row, delete"
+newsclip_0001,miscontextualised,A caption taken from a different story,,data/images/newsclip_0001.jpg,NewsCLIPpings,,"example row, delete"
+newsclip_0002,authentic_truthful,The image's original caption,https://example.com/image2.jpg,,NewsCLIPpings,,"example row, delete"

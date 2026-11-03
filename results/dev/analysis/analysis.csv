@@ -1,0 +1,90 @@
+﻿breakdown,group,claims,correct,accuracy
+AVeriTeC claim type,Event/Property Claim,97,67,0.6907
+AVeriTeC claim type,Numerical Claim,40,22,0.55
+AVeriTeC claim type,Quote Verification,28,15,0.5357
+AVeriTeC claim type,Causal Claim,19,13,0.6842
+AVeriTeC claim type,Position Statement,9,6,0.6667
+AVeriTeC fact-checking strategy,Written Evidence,145,93,0.6414
+AVeriTeC fact-checking strategy,Consultation,40,27,0.675
+AVeriTeC fact-checking strategy,Numerical Comparison,33,20,0.6061
+AVeriTeC fact-checking strategy,Fact-checker Reference,13,13,1.0
+AVeriTeC fact-checking strategy,Satirical Source Identification,3,3,1.0
+Country (ISO code),US,74,48,0.6486
+Country (ISO code),IN,22,15,0.6818
+Country (ISO code),NG,18,9,0.5
+Country (ISO code),(none),13,11,0.8462
+Country (ISO code),GB,8,4,0.5
+Country (ISO code),NZ,4,2,0.5
+Country (ISO code),FR,3,3,1.0
+Country (ISO code),CN,3,1,0.3333
+Country (ISO code),AU,3,2,0.6667
+Country (ISO code),LK,2,2,1.0
+Country (ISO code),CA,2,2,1.0
+Country (ISO code),PK,1,1,1.0
+Country (ISO code),AT,1,1,1.0
+Country (ISO code),DE,1,1,1.0
+Country (ISO code),PH,1,0,0.0
+Country (ISO code),RU,1,1,1.0
+Country (ISO code),TR,1,1,1.0
+Where the claim appeared,Facebook,51,33,0.6471
+Where the claim appeared,(none),23,17,0.7391
+Where the claim appeared,Twitter,16,14,0.875
+Where the claim appeared,Instagram,6,3,0.5
+Where the claim appeared,Channels Television,4,3,0.75
+Where the claim appeared,US televised debate on Reuters.,3,0,0.0
+Where the claim appeared,Independence Anniversary Speech,3,2,0.6667
+Where the claim appeared,Youtube,2,1,0.5
+Where the claim appeared,twitter,2,1,0.5
+Where the claim appeared,Channels TV,2,0,0.0
+Where the claim appeared,CNN,2,2,1.0
+Where the claim appeared,The Federalist,1,0,0.0
+Where the claim appeared,Twitter/Latest laws,1,1,1.0
+Where the claim appeared,The Sun ,1,1,1.0
+Where the claim appeared,"Speech, Republican National Convention",1,1,1.0
+Where the claim appeared,Final Presedential Debate,1,0,0.0
+Where the claim appeared,New York Post,1,1,1.0
+Where the claim appeared,Natural News,1,0,0.0
+Where the claim appeared,"Zee news, DNA, Times now and First post",1,0,0.0
+Where the claim appeared,media outlets,1,0,0.0
+Where the claim appeared,Facebook User posts,1,0,0.0
+Where the claim appeared,Journal of the American Medical Association (JAMA),1,1,1.0
+Where the claim appeared,Washington Examiner,1,0,0.0
+Where the claim appeared,WhatsApp viral message and social media,1,1,1.0
+Where the claim appeared,Authority Newspaper,1,0,0.0
+Where the claim appeared,Social Media,1,1,1.0
+Where the claim appeared,KCRG,1,1,1.0
+Where the claim appeared,US televised debate on Reuters,1,0,0.0
+Where the claim appeared,Radio Canada,1,1,1.0
+Where the claim appeared,Russian Foreign Ministry,1,1,1.0
+Where the claim appeared,Twitter ,1,0,0.0
+Where the claim appeared,Fox News,1,1,1.0
+Where the claim appeared,ChannelsTV,1,1,1.0
+Where the claim appeared,Slate,1,0,0.0
+Where the claim appeared,Newshub Leaders Debate ,1,1,1.0
+Where the claim appeared,FACEBOOK,1,1,1.0
+Where the claim appeared,NBC NEWS,1,1,1.0
+Where the claim appeared,Public forum,1,1,1.0
+Where the claim appeared,Social Media ,1,1,1.0
+Where the claim appeared,Facebook and whatapp,1,1,1.0
+Where the claim appeared,Republic World,1,0,0.0
+Where the claim appeared,Facebook Users Posts,1,1,1.0
+Where the claim appeared,U.S. State Department,1,1,1.0
+Where the claim appeared,instagram,1,1,1.0
+Where the claim appeared,facebook User Post.,1,1,1.0
+Where the claim appeared,CBC News,1,0,0.0
+Where the claim appeared,Press Release,1,0,0.0
+Where the claim appeared,"transmitted via Facebook and Zoom, University of Ibadan, Nigeria's UI Community Forum's Voice of Next Vice-Chancellor 2020",1,1,1.0
+Where the claim appeared,Twitter - Times Now,1,1,1.0
+Where the claim appeared,Toronto today,1,1,1.0
+Where the claim appeared,Tv election debate on 'Channels Television',1,0,0.0
+Where the claim appeared,Rev,1,1,1.0
+Where the claim appeared,Sudarshan News,1,1,1.0
+Where the claim appeared,tvanouvelles,1,1,1.0
+Where the claim appeared,Times Now,1,0,0.0
+Claim length,under 15 words,72,44,0.6111
+Claim length,15 to 24 words,59,41,0.6949
+Claim length,25 words or more,27,19,0.7037
+Gold label,Refuted,93,68,0.7312
+Gold label,Supported,40,30,0.75
+Gold label,Not Enough Evidence,13,1,0.0769
+Gold label,Conflicting Evidence/Cherrypicking,12,5,0.4167

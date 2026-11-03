@@ -1,0 +1,302 @@
+section,item,count
+dropped,about what a photo or video shows,1151
+dropped,publisher cap reached,904
+dropped,rating does not map clearly,255
+dropped,made or reviewed before 2026-04-01,158
+dropped,duplicate,15
+dropped,review address not covered by the blocklist,1
+kept_label,Refuted,326
+kept_label,Supported,114
+kept_label,Conflicting Evidence/Cherrypicking,88
+kept_label,Not Enough Evidence,17
+kept_publisher,snopes.com,128
+kept_publisher,factcheck.afp.com,49
+kept_publisher,fullfact.org,42
+kept_publisher,aap.com.au,40
+kept_publisher,factly.in,40
+kept_publisher,vishvasnews.com,40
+kept_publisher,misbar.com,40
+kept_publisher,rappler.com,40
+kept_publisher,leadstories.com,37
+kept_publisher,verafiles.org,33
+kept_publisher,politifact.com,20
+kept_publisher,factcheck.org,18
+kept_publisher,boomlive.in,16
+kept_publisher,africacheck.org,2
+rating_mapping,false -> Refuted,199
+rating_mapping,true -> Supported,74
+rating_mapping,misleading -> Conflicting Evidence/Cherrypicking,61
+rating_mapping,correct attribution -> Supported,23
+rating_mapping,mostly true -> Supported,13
+rating_mapping,fake -> Refuted,13
+rating_mapping,unsubstantiated -> Not Enough Evidence,9
+rating_mapping,mostly false -> Refuted,8
+rating_mapping,unsupported -> Not Enough Evidence,7
+rating_mapping,false. this is not a genuine currys offer. -> Refuted,7
+rating_mapping,made-up story -> Refuted,6
+rating_mapping,missing context -> Conflicting Evidence/Cherrypicking,5
+rating_mapping,half true -> Conflicting Evidence/Cherrypicking,4
+rating_mapping,mixture -> Conflicting Evidence/Cherrypicking,4
+rating_mapping,never said -> Refuted,3
+rating_mapping,no such report -> Refuted,3
+rating_mapping,didn't say it -> Refuted,3
+rating_mapping,false quote -> Refuted,2
+rating_mapping,fake post -> Refuted,2
+rating_mapping,legit -> Supported,2
+rating_mapping,incorrect attribution -> Refuted,2
+rating_mapping,correct. the number of police-recorded theft from the person offences in london roughly tripled between the year ending march 2016 and the year ending march 2025. -> Supported,1
+rating_mapping,understated/exaggerated -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,exaggerated -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,"this is true, but it’s also already the case that the uk spends more on health and disability benefits than it does on defence. -> Supported",1
+rating_mapping,distorts the facts -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,made-up messi -> Refuted,1
+rating_mapping,unverified -> Not Enough Evidence,1
+rating_mapping,fabricated -> Refuted,1
+rating_mapping,exaggerates -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,needs context -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,false. the spat is fabricated and the quotes in the story are fake. -> Refuted,1
+rating_mapping,false. only one page asks detailed questions about people who usually reside at a property but aren't there on census night. -> Refuted,1
+rating_mapping,"false. ""christian"" has never been a tick-box option on the form. -> Refuted",1
+rating_mapping,false. the world bank classifies australia as a high-income country. -> Refuted,1
+rating_mapping,false. school cadet programs were not universal or compulsory in the late 1950s and only a small minority of eligible boys participated. -> Refuted,1
+rating_mapping,no such post -> Refuted,1
+rating_mapping,false. the cancer act 1939 prohibits advertisements promoting cancer treatments to the general public. it doesn’t prevent medical practitioners from treating patients. -> Refuted,1
+rating_mapping,"false. victoria police say the crackdown didn’t happen, and the photo of armed police in melbourne is from a 2021 protest. -> Refuted",1
+rating_mapping,false. there is no record of the supposedly viral tv special. -> Refuted,1
+rating_mapping,overstated -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,"incorrect. this figure refers to the proportion of people on universal credit in january 2026 who were non-british/irish citizens, which had been falling since 2024. we don’t know exactly what proportion of expenditure this group accounted for. -> Refuted",1
+rating_mapping,false. this is not a genuine offer from argos. -> Refuted,1
+rating_mapping,false. the accused man is in custody and has not stood trial or been sentenced. -> Refuted,1
+rating_mapping,false. the cited players have not been arrested. -> Refuted,1
+rating_mapping,"false. this story comes from a faked copy of the daily express website, and no such proposal has been reported by any real media, or announced by the government. -> Refuted",1
+rating_mapping,"false. the first case of bird flu in a little penguin was confirmed on august 15, 2026. -> Refuted",1
+rating_mapping,"false. the statements don’t exist, and the claims are part of a foreign-run disinformation operation. -> Refuted",1
+rating_mapping,false. there is no public record of either artist making this statement. -> Refuted,1
+rating_mapping,"this is a hoax. there’s no evidence this is actually happening in the uk, and similar posts have been circulating online around the world for years. -> Refuted",1
+rating_mapping,false. bexley council has confirmed it didn’t send the letter. -> Refuted,1
+rating_mapping,false. mr hipkins has not claimed he was defamed by tvnz and the legal dispute has been fabricated by a disinformation operation. -> Refuted,1
+rating_mapping,fabricated doc -> Refuted,1
+rating_mapping,false. a spokesperson for dunelm has confirmed this is not a genuine deal. -> Refuted,1
+rating_mapping,false. japan has done no such thing. approved mrna covid-19 vaccines are considered safe. -> Refuted,1
+rating_mapping,"false. late summer has seen a much smaller and slower rise in covid-19 cases, with 231 cases in england the week to 5 august and 256 cases in the week to 12 august. -> Refuted",1
+rating_mapping,false. haarp cannot control the weather and has nothing to do with the flash flood on the nepal-tibet border. -> Refuted,1
+rating_mapping,not the whole story -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,false. the bank assessed a theoretical scenario following the tax changes but did not forecast they'd lead to a 30 per cent rise in rents. -> Refuted,1
+rating_mapping,false. the image is ai-generated. -> Refuted,1
+rating_mapping,false. the real figure is around six per cent. -> Refuted,1
+rating_mapping,"false. it is a killed virus vaccine, not an mrna vaccine. -> Refuted",1
+rating_mapping,not real post -> Refuted,1
+rating_mapping,false. the quotes attributed to the politicians have been fabricated by a foreign-run disinformation operation. -> Refuted,1
+rating_mapping,false. the claimed “hack” occurred in 2016 and did not expose users’ personal data. -> Refuted,1
+rating_mapping,false. infanticide is illegal in california. -> Refuted,1
+rating_mapping,false. the nepal flash flood was a disaster caused by a rock-glacier collapse. direct footage from amateur videos and satellite imagery have documented its impact. -> Refuted,1
+rating_mapping,"false. hpv infection is not a side effect of hpv vaccines, which do not contain live or inactivated viruses. -> Refuted",1
+rating_mapping,false. bunnings is not charging a site fee for sausage sizzles and the claim has been posted by a disinformation operation. -> Refuted,1
+rating_mapping,false. hundreds of h5 bird flu cases have been confirmed in australian wildlife. -> Refuted,1
+rating_mapping,this is false. schools can provide both halal and non-halal food. -> Refuted,1
+rating_mapping,not real ad -> Refuted,1
+rating_mapping,fake potus -> Refuted,1
+rating_mapping,this is wrong and in fact a substantial overstatement. the government’s latest estimate suggests around 81.9 square miles of uk land in total is occupied by ground-mounted solar panels. -> Refuted,1
+rating_mapping,false. there is no public record of him making any such announcement. -> Refuted,1
+rating_mapping,false. the latest census data shows that 53.8% of people in london identified as white generally. 36.8% identified as white british. -> Refuted,1
+rating_mapping,false. the 2026 survey was carried out nearly a year after the famine was declared and didn't contradict the earlier declaration. -> Refuted,1
+rating_mapping,"misleading: the 51,605 figure refers to temporary visas granted that year, when more than 10,000 skilled visas were granted to construction industry workers. -> Conflicting Evidence/Cherrypicking",1
+rating_mapping,false. the truth social post is fake. -> Refuted,1
+rating_mapping,incorrect. the number of apprenticeship starts per year in england rose after 2020/21—although that year may have been affected by the pandemic. apprenticeship starts did fall significantly in the years before 2020. -> Refuted,1
+rating_mapping,"incorrect. since june 2025, asylum seekers in catered accommodation receive £9.95 a week in asylum support. -> Refuted",1
+rating_mapping,this is not true. monzo has confirmed that this is not a genuine casino site from the company. -> Refuted,1
+rating_mapping,didn't happen -> Refuted,1
+rating_mapping,"this is incorrect—estimates suggest the increase over a decade was significantly less. the migration observatory estimated there was a 143% increase over 20 years, though that’s now been adjusted to 149% and it’s warned this is based on figures which aren’t directly comparable. -> Refuted",1
+rating_mapping,false. tumours are not bags of toxins and do not serve any healing purpose. -> Refuted,1
+rating_mapping,this is misleading. most asylum seekers could already access financial support under previous legislation. the 2003 court case involving mr starmer changed eligibility so that those who didn’t claim asylum immediately upon entering the uk could also receive support. -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,false. burger king has confirmed this isn’t one of its genuine offers. -> Refuted,1
+rating_mapping,false. the interview did not occur and the quotes have been fabricated. -> Refuted,1
+rating_mapping,false. the bill does not ban anonymous accounts. -> Refuted,1
+rating_mapping,"this is misleading. around 9.6 million pensioners are currently paying income tax, but most of them would be paying it even without the threshold freezes. a total of one million pensioners are forecast to be brought into paying income tax because of the freezes between april 2021 and april 2031. -> Conflicting Evidence/Cherrypicking",1
+rating_mapping,this is misleading. ms abdi-wali is labour’s candidate for this by-election but she is not currently seeking asylum. she came to the uk from somalia as a child refugee in the 1990s and is now listed as having british nationality. -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,false. the claimed encounters did not happen and the quotes have been fabricated. -> Refuted,1
+rating_mapping,false reports -> Refuted,1
+rating_mapping,this is false. these figures come from a calculation based on a data error in us military records. the correct figures show much smaller rises and do not mean the change was caused by covid vaccinations. -> Refuted,1
+rating_mapping,false. migrants picked up in the channel are not immediately given refugee status. they must apply for and be granted asylum in order to be recognised as a refugee. -> Refuted,1
+rating_mapping,"false. while small boat arrivals have increased significantly over the last decade, there are documented examples of clandestine migration by small boat before the referendum. -> Refuted",1
+rating_mapping,false. morrisons has confirmed these are not real offers from the supermarket. -> Refuted,1
+rating_mapping,"false. the poll did not ask this. instead, it found that more respondents supported several new taxes than opposed them. -> Refuted",1
+rating_mapping,false. the article is fake. -> Refuted,1
+rating_mapping,made up story -> Refuted,1
+rating_mapping,"false. although there was speculation that mr simons might be appointed to the role, this did not happen. graeme cooke was reportedly appointed as head of no 10’s policy unit. -> Refuted",1
+rating_mapping,"false. japan has not done this, and its constitution guarantees religious freedom. a video shared alongside the claims is unrelated, showing parliament's dissolution for a general election. -> Refuted",1
+rating_mapping,false. the surgeon does not exist and the details have been fabricated. -> Refuted,1
+rating_mapping,"misleading. there's no tax proposed on having a baby, though a draft bill could have tax consequences for some families adding new children to certain trust structures. -> Conflicting Evidence/Cherrypicking",1
+rating_mapping,false. there’s no evidence that sunglasses cause cancer. -> Refuted,1
+rating_mapping,lacks context -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,false. no such policy has been announced. -> Refuted,1
+rating_mapping,incorrect. the government has now clarified that children made over 14.5 million free bus journeys in august. there are only about 7.5 million children aged 5 to 15 in england. -> Refuted,1
+rating_mapping,"false. reform uk proposed a series of health policies on a full page of its manifesto, one of which was “tax relief of 20% on all private healthcare and insurance”. -> Refuted",1
+rating_mapping,fake receipts -> Refuted,1
+rating_mapping,false. the quote has been fabricated by foreign-run disinformation pages. -> Refuted,1
+rating_mapping,false. the quote has been fabricated by foreign-run disinformation actors. -> Refuted,1
+rating_mapping,"false. covid vaccines don’t cause hiv, and experts say fiji’s hiv epidemic has been driven by intravenous drug use. -> Refuted",1
+rating_mapping,misleading. many of the nurses were recruited under the previous labour government and the number has flatlined over the past two years. -> Conflicting Evidence/Cherrypicking,1
+rating_mapping,this is partly incorrect. the extension to 2028 was made by a conservative government. an extension to 2029 was announced by a conservative government but doesn’t appear to have been implemented. labour later extended the levy to 2030. -> Refuted,1
+rating_mapping,"false. the figure is based on visas issued, not arrivals, and around 17,000 indian migrants arrived in the past year. -> Refuted",1
+unmapped_rating,originated as satire,26
+unmapped_rating,labeled satire,18
+unmapped_rating,ai-generated,14
+unmapped_rating,satire label,9
+unmapped_rating,satire origin,6
+unmapped_rating,altered video,6
+unmapped_rating,satire,6
+unmapped_rating,prebunk,5
+unmapped_rating,it's satire,4
+unmapped_rating,satire page,3
+unmapped_rating,altered picture,3
+unmapped_rating,recall,2
+unmapped_rating,outdated,2
+unmapped_rating,parody post,2
+unmapped_rating,no reports,2
+unmapped_rating,satire account,2
+unmapped_rating,confused ids,1
+unmapped_rating,digital edit,1
+unmapped_rating,no plane proof,1
+unmapped_rating,viet spam,1
+unmapped_rating,real error,1
+unmapped_rating,deleted post,1
+unmapped_rating,pga ceo,1
+unmapped_rating,meant as joke,1
+unmapped_rating,nirvana nod,1
+unmapped_rating,not on file,1
+unmapped_rating,altered map,1
+unmapped_rating,video proof,1
+unmapped_rating,back on site,1
+unmapped_rating,us playlist,1
+unmapped_rating,not trump post,1
+unmapped_rating,not documented,1
+unmapped_rating,no suspect id,1
+unmapped_rating,private money,1
+unmapped_rating,satire post,1
+unmapped_rating,none reported,1
+unmapped_rating,court records,1
+unmapped_rating,no proof,1
+unmapped_rating,company denies,1
+unmapped_rating,ai pics,1
+unmapped_rating,another mayor,1
+unmapped_rating,satire origins,1
+unmapped_rating,no markup,1
+unmapped_rating,old post,1
+unmapped_rating,faux shooter,1
+unmapped_rating,still alive,1
+unmapped_rating,airsoft guns,1
+unmapped_rating,ai character,1
+unmapped_rating,counterfeit,1
+unmapped_rating,longtime local,1
+unmapped_rating,no potus post,1
+unmapped_rating,one each,1
+unmapped_rating,ballroom plans,1
+unmapped_rating,newspaper:no,1
+unmapped_rating,tally error,1
+unmapped_rating,trump posted,1
+unmapped_rating,2019 article,1
+unmapped_rating,no exit talk,1
+unmapped_rating,spoof account,1
+unmapped_rating,faulty math,1
+unmapped_rating,still coaching,1
+unmapped_rating,stop discovery,1
+unmapped_rating,no party req.,1
+unmapped_rating,still with us,1
+unmapped_rating,ai maddow,1
+unmapped_rating,uni project,1
+unmapped_rating,no sanction,1
+unmapped_rating,ai image,1
+unmapped_rating,point away,1
+unmapped_rating,also voter id,1
+unmapped_rating,job compare,1
+unmapped_rating,different man,1
+unmapped_rating,not her,1
+unmapped_rating,old exhibit,1
+unmapped_rating,never posted,1
+unmapped_rating,computer gfx,1
+unmapped_rating,hypothetical,1
+unmapped_rating,not named,1
+unmapped_rating,unrelated,1
+unmapped_rating,joke to jeff,1
+unmapped_rating,did not post,1
+unmapped_rating,already there,1
+unmapped_rating,satire site,1
+unmapped_rating,church unhurt,1
+unmapped_rating,48 fifa flags,1
+unmapped_rating,never reported,1
+unmapped_rating,not ok,1
+unmapped_rating,what we know,1
+unmapped_rating,ai slop,1
+unmapped_rating,there’s no evidence for this claim. the ministry of defence ,1
+unmapped_rating,there’s no evidence for this. south yorkshire police say cou,1
+unmapped_rating,this isn’t a genuine offer from toby carvery.,1
+unmapped_rating,a biopsy does not burst a ‘bag’ or release toxins—because tu,1
+unmapped_rating,there is no evidence linking mrna covid vaccines to cancer.,1
+unmapped_rating,this isn’t true. official investigations concluded the crash,1
+unmapped_rating,the article was not written by mr gates and is available onl,1
+unmapped_rating,false. kent police confirmed it did not issue or recognise t,1
+unmapped_rating,"this isn’t true, according to official investigations and in",1
+unmapped_rating,it’s true the bbc did mistakenly report that world trade cen,1
+unmapped_rating,we’ve not found official data on bills to support this claim,1
+unmapped_rating,"while we can’t be certain what’s meant by “costs”, we’ve not",1
+unmapped_rating,all of these places have had muslim mayors at various points,1
+unmapped_rating,"according to the 2021 census, an estimated 49% of adult musl",1
+unmapped_rating,"the uk’s population is now closer to 70 million, and there a",1
+unmapped_rating,there isn’t an official count but the number seems more like,1
+unmapped_rating,sharia councils are sometimes called sharia courts. the home,1
+unmapped_rating,"these are water uk’s estimates for average peak demand, such",1
+unmapped_rating,these aren’t genuine offers from toby carvery.,1
+unmapped_rating,these images do not show the officers who were killed. they ,1
+unmapped_rating,"in 2017 then-ceo of starbucks, howard schultz, said that the",1
+unmapped_rating,"overexposure to ethylene oxide can be dangerous, but medical",1
+unmapped_rating,this figure appears to refer to the number of newly created ,1
+unmapped_rating,this figure refers to the net increase in prison places betw,1
+unmapped_rating,"this is not correct according to manchester city council, wh",1
+unmapped_rating,the nhs says this isn’t true. there was a local pilot in glo,1
+unmapped_rating,these figures appear to be based on wholesale electricity co,1
+unmapped_rating,this is not a real guardian front page and was originally cr,1
+unmapped_rating,a spokesperson for tui confirmed these are not genuine offer,1
+unmapped_rating,a spokesperson for currys confirmed this is not a genuine of,1
+unmapped_rating,this figure is not calculated reliably. it is an estimate de,1
+unmapped_rating,a spokesperson for the mayor of london said this is “complet,1
+unmapped_rating,false. the man in question was genuinely hospitalised with c,1
+unmapped_rating,this poster isn’t genuine. glasgow city council confirmed it,1
+unmapped_rating,the national police chiefs’ council says people should call ,1
+unmapped_rating,"vaccines do not cause autism, and an increase in diagnosis o",1
+unmapped_rating,"that’s not correct. labour has won nine majorities, includin",1
+unmapped_rating,maya doesn’t really exist—the mp whose social media accounts,1
+unmapped_rating,there is no evidence to support the idea that haarp engineer,1
+unmapped_rating,these are not legitimate offers from the retailer. a spokesp,1
+unmapped_rating,no it doesn’t. sunscreen lowers the risk of skin cancer. but,1
+unmapped_rating,this is not what the academy said. its statement to the gove,1
+unmapped_rating,this needs context. the 22% rate will only apply to interest,1
+unmapped_rating,reform uk actually came third in the arbroath and broughty f,1
+unmapped_rating,we don’t know for sure exactly which factors have driven the,1
+unmapped_rating,it’s true that the overall number of fte school teachers dec,1
+unmapped_rating,this isn’t quite right. although labour’s manifesto wasn’t s,1
+unmapped_rating,this isn’t quite right. net migration fell by an estimated 8,1
+unmapped_rating,"this isn’t an official figure, and isn’t reliable. it appear",1
+unmapped_rating,this is broadly correct according to police-recorded crime f,1
+unmapped_rating,a tesco spokesperson has confirmed this is not a genuine off,1
+unmapped_rating,this list is inaccurate. several of the taxes mentioned exis,1
+unmapped_rating,"this is not correct, according to police statistics on knife",1
+unmapped_rating,this is not correct. while crowd size numbers are often disp,1
+unmapped_rating,"this isn’t correct according to the latest figures, which sh",1
+unmapped_rating,"since 2018, there have been 12 days on which at least 1,000 ",1
+unmapped_rating,this isn’t what the research shows. the children’s commissio,1
+unmapped_rating,aldi has confirmed this is not a genuine offer.,1
+unmapped_rating,this is an unreliable figure. it is the total number of wait,1
+unmapped_rating,this post appears to have originally been shared as satire. ,1
+unmapped_rating,this isn’t quite right. while the scottish government covers,1
+unmapped_rating,this map does not include county councils now run by reform ,1
+unmapped_rating,"this is not correct, according to the nhs and a wide range o",1
+unmapped_rating,this isn’t quite right. although the youth unemployment rate,1
+unmapped_rating,the bbc has confirmed this content is fake. the picture acco,1
+unmapped_rating,"people voting in uk elections can use pens or pencils, and b",1
+unmapped_rating,these bar charts don’t give a reliable picture of parties’ l,1
+unmapped_rating,this isn’t correct. the government publishes quarterly figur,1
+unmapped_rating,the met police says it hasn’t given any official estimates f,1
+unmapped_rating,the us signed and ratified the four conventions of 1949 and ,1
+unmapped_rating,false. the claim comes from a parody account and the suspect,1
+unmapped_rating,no basis,1
